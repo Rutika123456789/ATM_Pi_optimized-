@@ -1,0 +1,22 @@
+# Core numerical and image processing libraries
+
+numpy==1.23.5
+opencv-python==4.7.0.72
+imutils==0.5.4
+
+# Deep learning
+tensorflow==2.10.0
+keras==2.10.0
+
+# Audio (Text-to-Speech)
+pyttsx3==2.90
+pypiwin32==223  # Required for pyttsx3 on Windows
+
+# For model input handling
+Pillow==9.5.0
+
+# Optional (helpful in some TensorFlow setups)
+protobuf==3.20.3
+h5py==3.8.0
+
+

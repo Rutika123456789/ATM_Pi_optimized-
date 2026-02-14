@@ -1,0 +1,33 @@
+# =============================
+# Core Numerical & Image Processing
+# =============================
+numpy>=1.23.5
+opencv-python==4.7.0.72
+imutils==0.5.4
+Pillow==9.5.0
+
+# =============================
+# Machine Learning (TensorFlow Lite)
+# =============================
+tflite-runtime==2.14.0  # Lightweight TensorFlow Lite runtime for Raspberry Pi
+
+# =============================
+# Text-to-Speech (Multi-Mode)
+# =============================
+gTTS==2.5.1           # Online speech synthesis
+espeakng==1.0.0       # Offline speech synthesis engine wrapper
+pyttsx3==2.90         # Fallback TTS (may be slower)
+pyaudio==0.2.14       # Required for audio I/O (used by pyttsx3 or other audio modules)
+playsound==1.3.0      # To play alert and speech audio files
+
+# =============================
+# GPIO and Hardware Interaction
+# =============================
+RPi.GPIO==0.7.1
+gpiozero==1.6.2
+
+# =============================
+# Model Input and Serialization
+# =============================
+protobuf==3.20.3
+h5py==3.8.0
