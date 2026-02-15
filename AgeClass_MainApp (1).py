@@ -16,6 +16,8 @@ string_pred_gen = ['Feminin', 'Masculin']
 # Load TFLite model and allocate tensors. Load Face Cascade
 face_cascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 
+
+
 interpreter_age = tf.lite.Interpreter(model_path="AgeClass_best_06_02-16-02.tflite")
 interpreter_age.allocate_tensors()
 

@@ -7,6 +7,7 @@ if not cap.isOpened():
     print("❌ Camera not detected")
     exit()
 
+
 print("✅ Camera opened successfully")
 print("Press 'q' to quit")
 
